@@ -1,0 +1,397 @@
+/*
+================================================================================
+|                                     TAGS                                     |
+================================================================================
+*/
+body {
+	background: #003D54 url(img/bg_rpt_x.jpg)  repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #E4B75B;
+	text-decoration: underline;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+	list-style-type: square;
+	list-style-position: outside;
+}
+li {
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #E4B75B;
+	line-height: 13px;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 3px;
+}
+#ESWpageTitle, #ESWpageTagline {
+	z-index: 100;
+}
+#ESWpageTitle {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 246px;
+	top: 31px;
+	width:500px;
+}
+#ESWpageTagline {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color:#FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 376px;
+	top: 24px;
+	width:500px;
+}
+#ESWpageTitle p{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFF;
+	width:500px;
+}
+#ESWpageTagline p{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color:#FFFFFF;
+	width:500px;
+}
+
+/*
+================================================================================
+|                                     MENU                                     |
+================================================================================
+*/
+#ESWuserMenuPosition {
+	position: absolute;
+	left: 23px;
+	top: 383px;
+	z-index: 100;
+}
+#ESWuserMenu {
+	position: static;
+	width: 193px;
+}
+div.ESWuserButton0 {
+	height: 33px;
+	font-family: Arial, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	color: #003E55;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 26px;
+	padding-bottom: 3px;
+	background: url(img/button0.png) no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+div.ESWuserButton0:hover {
+	color: #FFF;
+}
+div.ESWuserButton1 {
+	font-family: Arial, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #83CDFF;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 41px;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+div.ESWuserButton1:hover {
+	color: #FFF;
+}
+.list_none {
+	list-style-type: none;
+}
+.link_position {
+	padding: 0px 0px 8px 145px;	
+}
+.padd_txt {
+	padding-bottom: 8px;
+}
+/*
+================================================================================
+|                                    CONTENT                                   |
+================================================================================
+*/
+.ESWpageContent {
+	padding: 0px;
+	position: absolute;
+	width: 177px;
+	left: 421px;
+	top: 161px;
+}
+.ESWpageContent1 {
+	padding: 0px;
+	position: absolute;
+	width: 204px;
+	left: 650px;
+	top: 172px;
+}
+.ESWpageContent2 {
+	padding: 0px;
+	position: absolute;
+	width: 120px;
+	left: 274px;
+	top: 499px;
+}
+.ESWpageContent3 {
+	padding: 0px;
+	position: absolute;
+	width: 120px;
+	left: 483px;
+	top: 499px;
+}
+.ESWpageContent4 {
+	padding: 0px;
+	position: absolute;
+	width: 250px;
+	left: 239px;
+	top: 132px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #5FBDFF;
+	margin: 0px;
+	padding: 0px;
+}
+p, div.ESWuserTable TD {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #439AC3;
+	margin: 0px;
+	padding: 0px;
+}
+.col1 {
+	color: #E4B75B;
+}
+/*
+================================================================================
+|                                    DESIGN                                    |
+================================================================================
+*/
+#bird_1 {
+	background: url(img/bird_1.png) no-repeat;
+	position: absolute;
+	width: 23px;
+	height: 20px;
+	left: 117px;
+	top: 15px;
+}
+#bird_2 {
+	background: url(img/bird_2.png) no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 44px;
+	left: 148px;
+	top: 11px;
+}
+#bird_3 {
+	background: url(img/bird_3.png) no-repeat;
+	position: absolute;
+	width: 22px;
+	height: 26px;
+	left: 232px;
+	top: 1px;
+}
+#block_1 {
+	background-color: #00394F;
+	position: absolute;
+	width: 383px;
+	height: 71px;
+	left: 241px;
+	top: 493px;
+	overflow: hidden;
+}
+#block_2 {
+	background-color: #00394F;
+	position: absolute;
+	width: 260px;
+	height: 335px;
+	left: 624px;
+	top: 158px;
+	overflow: hidden;
+}
+#dolphin_1 {
+	background: url(img/dolphin_1.png) no-repeat;
+	position: absolute;
+	width: 66px;
+	height: 89px;
+	left: 0px;
+	top: 26px;
+}
+#dolphin_2 {
+	background: url(img/dolphin_2.png) no-repeat;
+	position: absolute;
+	width: 93px;
+	height: 78px;
+	left: 19px;
+	top: 68px;
+}
+#image_1 {
+	background: url(img/image_1.png) no-repeat;
+	position: absolute;
+	width: 83px;
+	height: 66px;
+	left: 9px;
+	top: 306px;
+}
+#image_2 {
+	background: url(img/image_2.png) no-repeat;
+	position: absolute;
+	width: 81px;
+	height: 60px;
+	left: 80px;
+	top: 321px;
+}
+#map {
+	background: url(img/map.png) no-repeat;
+	position: absolute;
+	width: 230px;
+	height: 107px;
+	left: 653px;
+	top: 493px;
+}
+#pict_1_bg {
+	background: url(img/pict_1_bg.png) no-repeat;
+	position: absolute;
+	width: 178px;
+	height: 98px;
+	left: 234px;
+	top: 159px;
+}
+#pict_2_bg {
+	background: url(img/pict_2_bg.png) no-repeat;
+	position: absolute;
+	width: 178px;
+	height: 98px;
+	left: 234px;
+	top: 270px;
+}
+#pict_3_bg {
+	background: url(img/pict_3_bg.png) no-repeat;
+	position: absolute;
+	width: 178px;
+	height: 98px;
+	left: 234px;
+	top: 383px;
+}
+#pict_1 {
+	background: url(img/pict_1.png) no-repeat;
+	position: absolute;
+	width: 161px;
+	height: 80px;
+	left: 243px;
+	top: 167px;
+}
+#pict_2 {
+	background: url(img/pict_2.png) no-repeat;
+	position: absolute;
+	width: 161px;
+	height: 80px;
+	left: 243px;
+	top: 279px;
+}
+#pict_3 {
+	background: url(img/pict_3.png) no-repeat;
+	position: absolute;
+	width: 161px;
+	height: 80px;
+	left: 243px;
+	top: 391px;
+}
+#sky {
+	background: url(img/sky.jpg) no-repeat;
+	position: absolute;
+	width: 900px;
+	height: 101px;
+	left: 0px;
+	top: 0px;
+}
+#stone {
+	background: url(img/stone.png) no-repeat;
+	position: absolute;
+	width: 140px;
+	height: 119px;
+	left: 0px;
+	top: 179px;
+}
+#topic {
+	position: absolute;
+	width: 696px;
+	height: 390px;
+	left: 204px;
+	top: 118px;
+}
+#topic_top {
+	background-image: url(img/topic_top.png);
+	background-repeat: no-repeat;
+	height: 54px;
+}
+#topic_bg {
+	background-image: url(img/topic_bg.png);
+	background-repeat: repeat-y;	
+	height:100%;
+}
+#topic_btm {
+	background-image: url(img/topic_btm.png);
+	background-repeat: no-repeat;
+	height: 56px;
+}
+/* TABLE PART START */
+
+div.ESWuserTable
+{
+	height: 93px;
+}
+
+div.ESWuserTable TABLE
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+div.ESWuserTable TD
+{
+    border: 1px solid black;
+}
+
+
+
+/* TABLE PART END */
